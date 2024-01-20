@@ -13,9 +13,21 @@
         {
           "origin": "https://n"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/dm-serif-display/DMSerifDisplay_400Regular.ttf",
+            "node_modules/@expo-google-fonts/dm-serif-display/DMSerifDisplay_400Regular_Italic.ttf"
+          ]
+        }
       ]
     ],
     "name": "expo-fonts-config-plugin",
-    "slug": "expo-fonts-config-plugin"
+    "slug": "expo-fonts-config-plugin",
+    "ios": {
+      "bundleIdentifier": "com.nabn.expo-fonts-config-plugin"
+    }
   }
 }
